@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.uclm.daiu.datarunning">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="es.uclm.daui.datarunning.activities.Init"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="es.uclm.daui.datarunning.activities.Searchforarunnerpage"
+            android:label="@string/title_activity_searchforarunnerpage"></activity>
+
+        <activity
+            android:name="es.uclm.daui.datarunning.activities.ConsultHomePageInfo"
+            android:label="@string/title_activity_consulthomepageinfo"></activity>
+
+        <activity
+            android:name="es.uclm.daui.datarunning.activities.ConsultRacesInfo"
+            android:label="@string/title_activity_consultracesinfo"></activity>
+
+        <activity
+            android:name="es.uclm.daui.datarunning.activities.ConsultRankingsStatsInfo"
+            android:label="@string/title_activity_consultrankingsstatsinfo"></activity>
+
+        <activity
+            android:name="es.uclm.daui.datarunning.activities.Completeasurvey"
+            android:label="@string/title_activity_completeasurvey"></activity>
+
+        <activity
+            android:name="es.uclm.daui.datarunning.activities.Showracesurvey"
+            android:label="@string/title_activity_showracesurvey"></activity>
+
+        <activity
+            android:name="es.uclm.daui.datarunning.activities.SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
+
+        <activity
+            android:name="es.uclm.daui.datarunning.activities.RaceInfo"
+            android:label="@string/title_race_info"></activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,37 @@
+<!--
+
+Model: C:\Users\Fran\Desktop\UML2Android\DataRunning\TaskModel.xml      
+
+Please add the contents of this file into the Manifest of your project 
+inside the Application tag element.   
+
+-->
+
+
+<activity android:name="es.uclm.daui.datarunnin.activities.Init" android:label="@string/title_activity_init" >
+</activity>
+
+
+<activity android:name="es.uclm.daui.datarunnin.activities.Consult HomePage Info" android:label="@string/title_activity_consult homepage info" >
+</activity>
+
+
+<activity android:name="es.uclm.daui.datarunnin.activities.Consult Races Info" android:label="@string/title_activity_consult races info" >
+</activity>
+
+
+<activity android:name="es.uclm.daui.datarunnin.activities.Consult Rankings  Stats  Info" android:label="@string/title_activity_consult rankings  stats  info" >
+</activity>
+
+
+<activity android:name="es.uclm.daui.datarunnin.activities.Complete a survey" android:label="@string/title_activity_complete a survey" >
+</activity>
+
+
+<activity android:name="es.uclm.daui.datarunnin.activities.Show race survey" android:label="@string/title_activity_show race survey" >
+</activity>
+
+
+<activity android:name="es.uclm.daui.datarunnin.activities.Search for a runner page" android:label="@string/title_activity_search for a runner page" >
+</activity>
+

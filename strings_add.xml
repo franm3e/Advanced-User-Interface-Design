@@ -1,0 +1,57 @@
+<!--
+
+Model: C:\Users\Fran\Desktop\UML2Android\DataRunning\TaskModel.xml      
+
+Please add the contents of this file into the res/values/strings.xml of your project 
+inside the strings tag element.   
+
+-->
+
+
+<string name="ButtonLabelConsult HomePage Info">Consult HomePage Info</string>
+
+<string name="ButtonLabelConsult Races Info">Consult Races Info</string>
+
+<string name="ButtonLabelConsult Rankings  Stats  Info">Consult Rankings  Stats  Info</string>
+
+<string name="ButtonLabelComplete a survey">Complete a survey</string>
+
+<string name="ButtonLabelSearch for a runner page">Search for a runner page</string>
+
+<string name="action_settings_init">Settings</string>
+
+<string name="title_activity_init">Init</string>
+
+<string name="LabelSelect a new">Select a new</string>
+
+<string name="action_settings_consult homepage info">Settings</string>
+
+<string name="title_activity_consult homepage info">Consult HomePage Info</string>
+
+<string name="LabelSelect Race">Select Race</string>
+
+<string name="action_settings_consult races info">Settings</string>
+
+<string name="title_activity_consult races info">Consult Races Info</string>
+
+<string name="LabelSelect a year">Select a year</string>
+
+<string name="action_settings_consult rankings  stats  info">Settings</string>
+
+<string name="title_activity_consult rankings  stats  info">Consult Rankings  Stats  Info</string>
+
+<string name="LabelSelect a race">Select a race</string>
+
+<string name="ButtonLabelShow race survey">Show race survey</string>
+
+<string name="action_settings_complete a survey">Settings</string>
+
+<string name="title_activity_complete a survey">Complete a survey</string>
+
+<string name="action_settings_show race survey">Settings</string>
+
+<string name="title_activity_show race survey">Show race survey</string>
+
+<string name="action_settings_search for a runner page">Settings</string>
+
+<string name="title_activity_search for a runner page">Search for a runner page</string>

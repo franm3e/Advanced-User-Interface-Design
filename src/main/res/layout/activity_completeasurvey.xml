@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+xmlns:app="http://schemas.android.com/apk/res-auto" 
+xmlns:tools="http://schemas.android.com/tools" 
+android:id="@+id/activity_completeasurvey"
+android:layout_width="match_parent" 
+android:layout_height="match_parent" 
+android:paddingBottom="@dimen/activity_vertical_margin" 
+android:paddingLeft="@dimen/activity_horizontal_margin" 
+android:paddingRight="@dimen/activity_horizontal_margin" 
+android:paddingTop="@dimen/activity_vertical_margin" 
+android:orientation="vertical" 
+tools:context="es.uclm.daui.datarunning.activities.Completeasurvey">
+	
+	<!-- SELECT TASK: Select a race -->
+	<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+		<TextView
+		android:text="@string/LabelSelectarace"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/LabelSelectarace"
+		android:layout_margin="5dp"
+		android:textStyle="normal|bold" /> 
+		<Spinner
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/spinnerSelectarace"
+		android:layout_weight="1"
+		android:layout_margin="5dp" />
+	</LinearLayout>
+	
+	<!-- NAVIGATION TASK: Show race survey -->
+	<Button
+	android:text="@string/ButtonLabelShowracesurvey"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:id="@+id/buttonShowracesurvey"
+	android:onClick="onClickShowracesurvey"
+	android:layout_gravity="center_horizontal" />
+</LinearLayout>
+
+
+
